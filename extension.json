@@ -3,7 +3,7 @@
     "default_enabled": "True",
     "type": "extension",
     "rocket_mode_compatible": "False",
-    "name": "GridColumnAlignmnet",
+    "name": "JWC-pyRevit",
     "description": "Extensions for PyRevit by Jacob Cooper",
     "author": "Jacob Cooper",
     "author_profile": "https://github.com/jcooper67",
