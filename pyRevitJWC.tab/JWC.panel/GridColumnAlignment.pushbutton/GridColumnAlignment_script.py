@@ -57,6 +57,8 @@ def parseXYZ(xyzOBject):
     return x,y,z
 #Creating Grid Method
 def createGrid(document,columnLocationXYZ,xyzDestination):
+    print(columnLocationXYZ)
+    print(xyzDestination)
     with Transaction(document,"Create Grid") as t:
         t.Start()
         line = Line.CreateBound(columnLocationXYZ,xyzDestination)
