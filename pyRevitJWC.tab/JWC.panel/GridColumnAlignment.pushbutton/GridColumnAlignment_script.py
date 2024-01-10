@@ -158,8 +158,6 @@ for Id in selectedIds:
 #Get all grids in the model
 allGrids = FilteredElementCollector(doc).OfClass(Grid).ToElements()
 
-
-
 #Need To Deal With Errors Here if there is No Mark or the Mark is not Valid (It references a distance to the nearest grid)
 for column in selectedColumns:
     columnGrids = column.get_Parameter(BuiltInParameter.COLUMN_LOCATION_MARK).AsString()
