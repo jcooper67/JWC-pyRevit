@@ -156,7 +156,7 @@ for Id in selectedIds:
 #Process Grids Associated With Column Line 
 
 #Get all grids in the model
-allGrids = FilteredElementCollector(doc).OfClass(Grid).ToElements()
+allGrids = FilteredElementCollector(doc).OfCategory(Grid).ToElements()
 
 #Need To Deal With Errors Here if there is No Mark or the Mark is not Valid (It references a distance to the nearest grid)
 for column in selectedColumns:
