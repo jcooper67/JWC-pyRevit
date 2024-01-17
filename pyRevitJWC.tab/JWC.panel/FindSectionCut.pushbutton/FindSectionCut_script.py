@@ -30,7 +30,7 @@ for element in allElements:
 			ownerId = element.OwnerViewId
 			ownerView = doc.GetElement(ownerId)
 			ownerViewName = ownerView.Name
-			print(ownerViewName)	
+			print(ownerViewName)
 			
 	except AttributeError:
 	
