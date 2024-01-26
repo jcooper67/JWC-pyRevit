@@ -46,6 +46,7 @@ def checkDuplicateGrids(gridOrigin, direction):
 #     subStrings=originString.split(",")
 #     return subStrings[0],subStrings[1],subStrings[2]
 #Method for Taking XYZ Object and returning its individual coordinates as Floats
+
 def parseXYZ(xyzOBject):
     xyzString = xyzOBject.ToString()
     xyzString = xyzString.replace("(","")
